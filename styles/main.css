@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 302px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.container div {
+    background-color: aquamarine;
+}
+
+
